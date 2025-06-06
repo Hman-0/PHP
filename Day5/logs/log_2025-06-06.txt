@@ -1,0 +1,12 @@
+[2025-06-06 01:57:50] IP: ::1 | Hành động: Đăng nhập hệ thống | Thông tin: File đính kèm: upload_1749175070_background-duong-pho-anime-full-hd_081737938.jpeg
+[2025-06-06 01:58:12] IP: ::1 | Hành động: Tải file lên | Thông tin: File đính kèm: upload_1749175092_hinh-anh-chill-lofi-an-tuong-1.jpg
+[2025-06-06 01:58:16] IP: ::1 | Hành động: Đăng nhập hệ thống
+[2025-06-06 01:58:29] IP: ::1 | Hành động: Xóa dữ liệu
+[2025-06-06 02:00:55] IP: ::1 | Hành động: Xóa dữ liệu
+[2025-06-06 02:00:59] IP: ::1 | Hành động: Đăng nhập hệ thống
+[2025-06-06 02:01:23] IP: ::1 | Hành động: Đăng nhập thất bại
+[2025-06-06 02:01:51] IP: ::1 | Hành động: Truy cập trái phép
+[2025-06-06 02:03:03] IP: ::1 | Hành động: Gửi biểu mẫu | Thông tin: File đính kèm: upload_1749175383_CV NGUYỄN DUY MẠNH - dd-TopCV.vn (3).pdf
+[2025-06-06 02:15:34] IP: ::1 | Hành động: Đăng nhập hệ thống
+[2025-06-06 02:15:51] IP: ::1 | Hành động: Gửi biểu mẫu
+[2025-06-06 02:15:58] IP: ::1 | Hành động: Tải file lên | Thông tin: File đính kèm: upload_1749176158_DKSPACE_Đơn xin tham gia chương trình thực tập sinh.docx.pdf
