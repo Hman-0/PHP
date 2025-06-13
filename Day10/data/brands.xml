@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<brands>
+    <category name="Điện tử">
+        <brand>Samsung</brand>
+        <brand>Apple</brand>
+        <brand>Sony</brand>
+        <brand>LG</brand>
+        <brand>Panasonic</brand>
+    </category>
+    <category name="Thời trang">
+        <brand>Zara</brand>
+        <brand>H&amp;M</brand>
+        <brand>Uniqlo</brand>
+        <brand>Adidas</brand>
+        <brand>Nike</brand>
+    </category>
+    <category name="Gia dụng">
+        <brand>Sunhouse</brand>
+        <brand>Lock&amp;Lock</brand>
+        <brand>Electrolux</brand>
+        <brand>Kangaroo</brand>
+        <brand>Philips</brand>
+    </category>
+</brands>

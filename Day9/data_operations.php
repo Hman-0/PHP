@@ -34,25 +34,25 @@ try {
     $order1_id = $pdo->lastInsertId();
     
     $stmt_item = $pdo->prepare("INSERT INTO order_items (order_id, product_id, quantity, price_at_order_time) VALUES (?, ?, ?, ?)");
-    $stmt_item->execute([$order1_id, 1, 2, 2500000]); // 2 động cơ servo
-    $stmt_item->execute([$order1_id, 3, 1, 15000000]); // 1 bảng điều khiển
+    $stmt_item->execute([$order1_id, 1, 2, 2500000]);
+    $stmt_item->execute([$order1_id, 3, 1, 15000000]); 
     echo "- Đơn hàng #$order1_id: Công ty TNHH ABC<br>";
     
     // Đơn hàng 2
     $stmt_order->execute(['2024-01-16', 'Nhà máy XYZ', 'Giao hàng trong tuần']);
     $order2_id = $pdo->lastInsertId();
     
-    $stmt_item->execute([$order2_id, 2, 5, 850000]); // 5 cảm biến nhiệt độ
-    $stmt_item->execute([$order2_id, 4, 1, 3200000]); // 1 biến tần
-    $stmt_item->execute([$order2_id, 5, 3, 1200000]); // 3 cảm biến áp suất
+    $stmt_item->execute([$order2_id, 2, 5, 850000]); 
+    $stmt_item->execute([$order2_id, 4, 1, 3200000]); 
+    $stmt_item->execute([$order2_id, 5, 3, 1200000]); 
     echo "- Đơn hàng #$order2_id: Nhà máy XYZ<br>";
     
     // Đơn hàng 3
     $stmt_order->execute(['2024-01-17', 'Tập đoàn DEF', null]);
     $order3_id = $pdo->lastInsertId();
     
-    $stmt_item->execute([$order3_id, 1, 1, 2500000]); // 1 động cơ servo
-    $stmt_item->execute([$order3_id, 2, 2, 850000]); // 2 cảm biến nhiệt độ
+    $stmt_item->execute([$order3_id, 1, 1, 2500000]); 
+    $stmt_item->execute([$order3_id, 2, 2, 850000]); 
     echo "- Đơn hàng #$order3_id: Tập đoàn DEF<br><br>";
     
     // 4.4 Prepared Statement - Thêm sản phẩm mới
